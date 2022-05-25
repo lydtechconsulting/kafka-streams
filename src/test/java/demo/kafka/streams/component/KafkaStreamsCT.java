@@ -22,7 +22,6 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.springframework.test.context.ActiveProfiles;
 
 import static demo.kafka.streams.processor.Currency.GBP;
 import static demo.kafka.streams.processor.Currency.USD;
@@ -36,7 +35,6 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 @Slf4j
 @ExtendWith(TestContainersSetupExtension.class)
-@ActiveProfiles("component-test")
 public class KafkaStreamsCT {
 
     private final static String GROUP_ID = "KafkaStreamsComponentTest";
