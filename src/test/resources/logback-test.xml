@@ -5,7 +5,7 @@
         <encoder>
             <!-- normal pattern -->
 <!--            <pattern>%d{HH:mm:ss.SSS} [%thread] %highlight(%-5level) %cyan(%logger{36}) - %msg%n</pattern>-->
-            <!-- compact pattern - ideal for component test demo -->
+            <!-- compact pattern - ideal for component test -->
             <pattern>%d{HH:mm:ss.SSS} %highlight(%-5level) %cyan(%logger{18}) - %msg%n</pattern>
         </encoder>
     </appender>
@@ -20,8 +20,9 @@
 <!--    <logger name="kafka.coordinator.group.GroupCoordinator" level="INFO"/>-->
 <!--    <logger name="wiremock" level="INFO"/>-->
 <!--    <logger name="demo.kafka.streams" level="DEBUG"/>-->
+<!--    <logger name="dev.lydtech" level="DEBUG"/>-->
 
-    <!-- sparse logging - ideal for component test demo -->
+    <!-- sparse logging - ideal for component test -->
     <logger name="com.github" level="WARN"/>
     <logger name="io" level="WARN"/>
     <logger name="org" level="ERROR"/>
@@ -31,6 +32,7 @@
     <logger name="kafka.coordinator.group.GroupCoordinator" level="WARN"/>
     <logger name="wiremock" level="WARN"/>
     <logger name="demo.kafka.streams" level="INFO"/>
+    <logger name="dev.lydtech" level="INFO"/>
 
     <root level="DEBUG">
         <appender-ref ref="STDOUT" />
