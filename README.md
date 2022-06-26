@@ -2,8 +2,6 @@
 
 Spring Boot application demonstrating usage of the Kafka Streams.
 
-## Articles
-
 This repo accompanies the following series of articles on Kafka Streams:
 
 - [Kafka Streams: Introduction](https://medium.com/lydtech-consulting/kafka-streams-introduction-d7e5421feb1b)
