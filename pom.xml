@@ -14,7 +14,7 @@
 	<name>kafka-streams-demo</name>
 	<description>Demo Kafka Streams</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 		<spring.boot.version>2.5.2</spring.boot.version>
 		<spring.kafka.version>2.7.8</spring.kafka.version>
 		<kafka.streams.version>2.7.1</kafka.streams.version>
